@@ -1,0 +1,20 @@
+Package: vfc.3dscatter
+Type: Package
+Title: A Simple 3D Visualization R Package for Numeric and Ordinal Data
+Version: 0.1.0
+Date: 2023-10-01
+Authors@R: c(
+    person(given="Vlad-Florin",family="Chelaru",email="vladflorinchelaru@gmail.com",role=c("aut","cre"),comment=c(ORCID="0000-0003-2954-3263"))
+  )
+Maintainer: Vlad-Florin Chelaru <vladflorinchelaru@gmail.com>
+Description: Assuming triplets of ordinal or numeric values, represent them in interactive 3D views.
+    This package uses `rgl` to view the data, and also allows the view of the distribution of the data points, on two-by-two axes.
+License: GNU GPL 3.0
+Encoding: UTF-8
+LazyData: true
+Depends:
+  rgl
+Imports:
+  MASS,
+  stringr
+RoxygenNote: 7.2.3

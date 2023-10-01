@@ -1,0 +1,9 @@
+citHeader("If you use vfc.3dscatter in published research, please cite the following:")
+
+bibentry(bibtype="Misc",
+         title = "vfc.3dscatter: A Simple 3D Visualization R Package for Numeric and Ordinal Data",
+         author = c(person(given="Vlad-Florin",family="Chelaru",email="vladflorinchelaru@gmail.com",role=c("aut","cre"),comment=c(ORCID="0000-0003-2954-3263"))),
+         year = 2023,
+         #url = "https://github.com/vladflorinchelaru/vfc.3dscatter",
+         textVersion = "Chelaru VF. vfc.3dscatter: A Simple 3D Visualization R Package for Numeric and Ordinal Data. 2023. R package version 0.1.0. Available from: https://github.com/vladflorinchelaru/vfc.3dscatter"
+         )
